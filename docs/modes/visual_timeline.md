@@ -7,45 +7,22 @@ parent: Modes
 
 # Visual Timeline Mode
 
-Enter this mode by via 'v' by default.
+Enter this mode by via <kbd>v</kbd> by default.
 
-In `visual time line` mode, `time line motions` and `timeline selectors` do not require a `time line operator` to come before hand.
+In this mode, `timeline_motion` and `timeline_selection` action types extend or set the current timeline selection.
+
+Also the `timeline_operator` type does not require a `timeline_motion` or `timeline_selector` to come before, as in normal mode, and instead operates immediately
+on the current timeline selection and then exits visual timeline mode.
+
+It also allows for the execution of `visual_track_command` types.
 
 ## Available Action Sequences
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
+| Action Sequence                      | Behaviour                                                                                |
+| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| `timeline selector` | Sets the timeline selection  |
+| `timeline motion` | Extends the timeline selection to the new edit cursor position  |
+| `timeline operator` | Executes the operator and exits to normal mode. |
+| `visual timeline command`       | Executes a visual timeline command. |
 
-<colgroup>
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left">visual_timeline_command</td>
-</tr>
-
-
-<tr>
-<td class="org-left">timeline_operator</td>
-</tr>
-
-
-<tr>
-<td class="org-left">timeline_selector</td>
-</tr>
-
-
-<tr>
-<td class="org-left">timeline_motion</td>
-</tr>
-
-
-<tr>
-<td class="org-left">track_selector</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<a id="org9418a0e"></a>

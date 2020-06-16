@@ -1,42 +1,27 @@
 ---
 layout: default
-title: Visual Track
+title: Visual Trac
 nav_order: 3
 parent: Modes
 ---
 
-### Visual Track
+# Visual Track Mode
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+Enter this mode by via <kbd>V</kbd> by default.
 
+This mode is the same in principle as `visual timeline` mode, just with track motions/selections and track operators instead.
 
-<colgroup>
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left">`track_operator`</td>
-</tr>
+This means that in this mode, `track motion` and `track selection` action types extend or set the current track selection.
 
+Also, the `track operator` type does not require a `track motion` or `track selection` to come before, as in normal mode, and instead operates immediately on the current track selection and then exits visual track mode.
 
-<tr>
-<td class="org-left">`track_selector`</td>
-</tr>
+It also allows for the execution of `visual_track_command` types.
 
+## Available Action Sequences
 
-<tr>
-<td class="org-left">`timeline_operator`</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`track_motion`</td>
-</tr>
-
-</tbody>
-</table>
-
-*enter this mode via 'V' by default*
-
-
-<a id="orga214d7e"></a>
+| Action Sequence                      | Behaviour                                                                                |
+| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| `track selector` | Sets the track selection  |
+| `track motion` | Extends the track selection up to the new track position after the motion |
+| `track operator` | Executes the operator and exits to normal mode. |
+| `visual track command`       | Executes a visual track command. |

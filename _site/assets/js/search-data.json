@@ -7,48 +7,60 @@
     "relUrl": "/404.html"
   }
   ,"1": {
-    "title": "Action Types",
+    "title": "Action Composition",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/action_types.html",
     "relUrl": "/docs/action_types.html"
   }
   ,"2": {
-    "title": "Bindings",
+    "title": "Actions",
     "content": "'+content+'",
-    "url": "http://localhost:4000/docs/bindings.html",
-    "relUrl": "/docs/bindings.html"
+    "url": "http://localhost:4000/docs/actions.html",
+    "relUrl": "/docs/actions.html"
   }
   ,"3": {
+    "title": "Advanced Configuration",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration/advanced.html",
+    "relUrl": "/docs/configuration/advanced.html"
+  }
+  ,"4": {
+    "title": "Bindings",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration/bindings.html",
+    "relUrl": "/docs/configuration/bindings.html"
+  }
+  ,"5": {
     "title": "Configuration",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/configuration.html",
     "relUrl": "/docs/configuration.html"
   }
-  ,"4": {
+  ,"6": {
     "title": "",
     "content": "'+content+'",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"5": {
+  ,"7": {
     "title": "Modes",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes.html",
     "relUrl": "/docs/modes.html"
   }
-  ,"6": {
+  ,"8": {
     "title": "Normal",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/normal.html",
     "relUrl": "/docs/modes/normal.html"
   }
-  ,"7": {
+  ,"9": {
     "title": "Visual Timeline",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/visual_timeline.html",
     "relUrl": "/docs/modes/visual_timeline.html"
   }
-  ,"8": {
+  ,"10": {
     "title": "Visual Track",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/visual_track.html",

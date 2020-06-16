@@ -1,86 +1,24 @@
 ---
-title: Action Types
+title: Action Composition
 layout: default
 ---
 
+# Action Composition
+
+In Reaper-Keys, actions have a type associated with them. 
+
 ## Action Types
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
+| Action Type                  | Description                                                                     |
+| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| `command` | A generic command. Does not compose, accessible from every mode |
+| `timeline motion` | Moves the edit cursor somewhere on the timeline |
+| `timeline selector` | Sets the timeline selection  |
+| `timeline operator` | Executes a command that operates on the timeline selection |
+| `track motion` | Changes the last touched track |
+| `track selector` | Selects a track or multiple tracks |
+| `track operator` | Executes a command that operates on a track selection |
+| `visual timeline command` | A command only available in visual timeline mode |
+| `visual track command` | A command only available in visual track mode |
 
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">action type</th>
-<th scope="col" class="org-left">description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-left">`command`</td>
-<td class="org-left">A generic command. Does not compose, accessible from every mode.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`timeline_motion`</td>
-<td class="org-left">Moves the edit cursor somewhere on the timeline.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`timeline_selector`</td>
-<td class="org-left">Sets the timeline selection .</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`timeline_operator`</td>
-<td class="org-left">An actions that operates on a timeline selection.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`track_motion`</td>
-<td class="org-left">Changes the selected track.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`track_selector`</td>
-<td class="org-left">Selects a track or multiple tracks.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`track_operator`</td>
-<td class="org-left">An actions that operaes on a selection of tracks.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`visual_timeline_command`</td>
-<td class="org-left">A command only available in visual timeline mode.</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`visual_track_command`</td>
-<td class="org-left">A command only available in visual track mode</td>
-</tr>
-
-
-<tr>
-<td class="org-left">`meta_command`</td>
-<td class="org-left">A special command handled by the reaper-keys engine.</td>
-</tr>
-</tbody>
-</table>
-
-
-<a id="org75c1f70"></a>

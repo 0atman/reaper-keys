@@ -4,9 +4,11 @@ layout: default
 parent: Configuration
 ---
 
-You may define or change key sequences for a specific context (in <main.lua> or <midi.lua>) or for all contexts (in <global.lua>).
+# Bindings
 
-I organize the entries in these files by `action type`.
+You may define or change key sequences for a specific context (in `main.lua` or `midi.lua`) or for all contexts (in `global.lua`).
+
+The entries in these files are organized by `action type`.
 
 Here is an example snippet that declares some bindings in the `timeline_operators`
 action type section.
@@ -30,5 +32,5 @@ Actions may also be put into folders. To create a folder,  follow this format:
   ["r"] = {"+regions", {
               ["d"] = "RemoveRegion",
   }},
-}}, -- be sure to close the folder
+}}, <-- be sure to close the folder
 ``` 
