@@ -11,6 +11,6 @@ Reaper-keys has multiple modes. Depending on the mode one is in, the available a
 
 The action sequence(s) available for all modes are:
 
-| Action Sequence                      | Behaviour                                                                                |
-| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| Action Sequence | Behaviour |
+| --- | --- |
 | `command` | Just executes the action |

@@ -19,9 +19,9 @@ It also allows for the execution of `visual_track_command` types.
 
 ## Available Action Sequences
 
-| Action Sequence                      | Behaviour                                                                                |
-| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| Action Sequence | Behaviour |
+| --- | --- |
 | `track selector` | Sets the track selection  |
 | `track motion` | Extends the track selection up to the new track position after the motion |
 | `track operator` | Executes the operator and exits to normal mode. |
-| `visual track command`       | Executes a visual track command. |
+| `visual track command` | Executes a visual track command. |

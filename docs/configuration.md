@@ -33,25 +33,38 @@ SelectFoldersChildren = "_SWS_SELCHILDREN2",
 ```
 
 Reaper-keys actions may also be a sequence of command id's, reaper-key
-action names, internal 'lib' or 'util' functions, or any combination of them. 
+action names, provided 'lib' functions, provided 'custom' functions, or any combination of them. 
 
 Here is an example of a more complicated action definition, that makes use of the provided 'lib' as well as other reaper-keys actions.
 
 ``` lua
+SelectOnlyCurrentTrack = custom.select.onlyCurrentTrack,
+UnselectItems = 40289,
+UnselectEnvelopePoints = 40331,
+UnselectAllEvents = {40214, midiCommand=true},
+ResetSelection = {"SelectOnlyCurrentTrack", "UnselectItems", "UnselectEnvelopePoints", "UnselectAllEvents"},
+
 Stop = 40667,
-SetModeNormal = lib.setModeToNormal,
-Reset = {"Stop", "SetModeNormal"},
+SetModeNormal = lib.setModeNormal,
+SetRecordModeNormal = 40252,
+Reset = {"Stop", "SetModeNormal", "SetRecordModeNormal", "ResetSelection"},
 ```
 
 ## Action Options
-Reaper-key actions also may have various options set.
+You may have noticed that this action had an option set:
+``` lua
+UnselectAllEvents = {40214, midiCommand=true},
+```
 
-| Option | Use |
-| ------ | --- |
-| repetitions | specifies the number of times to run the action |
-| midiCommand | indicates that the action id is from REAPERs 'MidiEditor' section |
-| setTimeSelection | used with timeline operator actions to set the timeline selection to the preceding movement/selector |
-| setTrackSelection | used with track operator actions to keep the preceding track movement/selector selection |
+There are various other options that tweak the actions behaviour. 
+
+| Option                | Use                                                                                                  |
+| ------                | ---                                                                                                  |
+| repetitions           | Specifies the number of times to run the action                                                      |
+| midiCommand           | Indicates that the action id is from REAPERs 'MidiEditor' section                                    |
+| setTimeSelection      | Used with timeline operator actions to set the timeline selection to the preceding movement/selector |
+| setTrackSelection     | Used with track operator actions to keep the preceding track movement/selector selection             |
+| prefixRepetitionCount | Indicates a number may prefix the actions key binding which will indicate repetitions.               |
 
 
 ## Config

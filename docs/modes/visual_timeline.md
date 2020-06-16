@@ -19,10 +19,10 @@ It also allows for the execution of `visual_track_command` types.
 ## Available Action Sequences
 
 
-| Action Sequence                      | Behaviour                                                                                |
-| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| Action Sequence | Behaviour |
+| --- | ---  |
 | `timeline selector` | Sets the timeline selection  |
 | `timeline motion` | Extends the timeline selection to the new edit cursor position  |
 | `timeline operator` | Executes the operator and exits to normal mode. |
-| `visual timeline command`       | Executes a visual timeline command. |
+| `visual timeline command` | Executes a visual timeline command. |
 
