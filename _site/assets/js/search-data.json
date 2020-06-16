@@ -7,16 +7,52 @@
     "relUrl": "/404.html"
   }
   ,"1": {
+    "title": "Action Types",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/action_types.html",
+    "relUrl": "/docs/action_types.html"
+  }
+  ,"2": {
+    "title": "Bindings",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/bindings.html",
+    "relUrl": "/docs/bindings.html"
+  }
+  ,"3": {
+    "title": "Configuration",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration.html",
+    "relUrl": "/docs/configuration.html"
+  }
+  ,"4": {
     "title": "",
     "content": "'+content+'",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"2": {
-    "title": "",
+  ,"5": {
+    "title": "Modes",
     "content": "'+content+'",
-    "url": "http://localhost:4000/docs/intro.html",
-    "relUrl": "/docs/intro.html"
+    "url": "http://localhost:4000/docs/modes.html",
+    "relUrl": "/docs/modes.html"
+  }
+  ,"6": {
+    "title": "Normal",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/modes/normal.html",
+    "relUrl": "/docs/modes/normal.html"
+  }
+  ,"7": {
+    "title": "Visual Timeline",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/modes/visual_timeline.html",
+    "relUrl": "/docs/modes/visual_timeline.html"
+  }
+  ,"8": {
+    "title": "Visual Track",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/modes/visual_track.html",
+    "relUrl": "/docs/modes/visual_track.html"
   }
   
 }
