@@ -5,10 +5,23 @@ nav_order: 4
 parent: Configuration
 ---
 
-### Advanced Configuration
+# Advanced Configuration
 
-If you are interested in adding another mode or action type to reaper keys and
-aren't scared of a bit of lua scripting, take a look at [sequence functions](file:///../internal/command/sequence_functions/) directory.
+1. TOC
+{:toc}
+
+
+## Action Sequences and Modes
+
+    internal
+    ├── command
+    │   ├── action_sequence_functions
+    │   │   ├── global.lua
+    │   │   ├── main.lua
+    │   │   └── midi.lua
+
+
+If you are interested in changing or creating modes, action types, or action action sequences, take a look at `action_sequence_functions` directory.
 
 There you will find all the functions that execute composed actions (excluding
 meta actions). There is a file for each context, and a section for each mode.
@@ -77,3 +90,19 @@ type sequence, to create a new action type.
 
 To create a new mode, add an entry at the level of 'normal' in the example. Then
 populate it with entries alike the above.
+
+
+## Custom Actions
+
+    internal
+    ├── custom_actions
+    │   ├── custom_actions.lua
+    │   ├── movement.lua
+    │   ├── selection.lua
+    │   └── utils.lua
+
+To create a custom action, follow the examples in the `custom_actions` directory. This directory contains all the actions available via the `custom` import in the `actions` file. 
+
+`reaper` is a global which provides access too the [reaper api](https://www.reaper.fm/sdk/reascript/reascripthelp.html#l)
+
+
