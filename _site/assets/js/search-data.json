@@ -13,49 +13,37 @@
     "relUrl": "/docs/action_composition.html"
   }
   ,"2": {
-    "title": "Advanced Configuration",
-    "content": "'+content+'",
-    "url": "http://localhost:4000/docs/configuration/advanced.html",
-    "relUrl": "/docs/configuration/advanced.html"
-  }
-  ,"3": {
-    "title": "Bindings",
-    "content": "'+content+'",
-    "url": "http://localhost:4000/docs/configuration/bindings.html",
-    "relUrl": "/docs/configuration/bindings.html"
-  }
-  ,"4": {
     "title": "Configuration",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/configuration.html",
     "relUrl": "/docs/configuration.html"
   }
-  ,"5": {
+  ,"3": {
     "title": "",
     "content": "'+content+'",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"6": {
+  ,"4": {
     "title": "Modes",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes.html",
     "relUrl": "/docs/modes.html"
   }
-  ,"7": {
+  ,"5": {
     "title": "Normal",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/normal.html",
     "relUrl": "/docs/modes/normal.html"
   }
-  ,"8": {
+  ,"6": {
     "title": "Visual Timeline",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/visual_timeline.html",
     "relUrl": "/docs/modes/visual_timeline.html"
   }
-  ,"9": {
-    "title": "Visual Trac",
+  ,"7": {
+    "title": "Visual Track",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/visual_track.html",
     "relUrl": "/docs/modes/visual_track.html"

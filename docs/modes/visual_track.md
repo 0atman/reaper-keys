@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Visual Trac
+title: Visual Track
 nav_order: 3
 parent: Modes
 ---
