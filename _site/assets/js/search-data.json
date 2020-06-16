@@ -13,36 +13,60 @@
     "relUrl": "/docs/action_composition.html"
   }
   ,"2": {
+    "title": "Actions",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration/actions.html",
+    "relUrl": "/docs/configuration/actions.html"
+  }
+  ,"3": {
+    "title": "Advanced Configuration",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration/advanced.html",
+    "relUrl": "/docs/configuration/advanced.html"
+  }
+  ,"4": {
+    "title": "Reaper-Keys Behaviour",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration/behaviour.html",
+    "relUrl": "/docs/configuration/behaviour.html"
+  }
+  ,"5": {
+    "title": "Bindings",
+    "content": "'+content+'",
+    "url": "http://localhost:4000/docs/configuration/bindings.html",
+    "relUrl": "/docs/configuration/bindings.html"
+  }
+  ,"6": {
     "title": "Configuration",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/configuration.html",
     "relUrl": "/docs/configuration.html"
   }
-  ,"3": {
+  ,"7": {
     "title": "",
     "content": "'+content+'",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"4": {
+  ,"8": {
     "title": "Modes",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes.html",
     "relUrl": "/docs/modes.html"
   }
-  ,"5": {
+  ,"9": {
     "title": "Normal",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/normal.html",
     "relUrl": "/docs/modes/normal.html"
   }
-  ,"6": {
+  ,"10": {
     "title": "Visual Timeline",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/visual_timeline.html",
     "relUrl": "/docs/modes/visual_timeline.html"
   }
-  ,"7": {
+  ,"11": {
     "title": "Visual Track",
     "content": "'+content+'",
     "url": "http://localhost:4000/docs/modes/visual_track.html",
