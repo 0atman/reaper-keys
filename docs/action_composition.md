@@ -9,9 +9,8 @@ In Reaper-Keys, actions have a type associated with them.
 
 ## Action Types
 
-
-| Action Type                  | Description                                                                     |
-| ------------------------------------ | ---------------------------------------------------------------------------------------  |
+| Action Type | Description |
+| ------ | ---- |
 | `command` | A generic command. Does not compose, accessible from every mode |
 | `timeline motion` | Moves the edit cursor somewhere on the timeline |
 | `timeline selector` | Sets the timeline selection  |
